@@ -1,0 +1,43 @@
+.tools-used{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.skill-logo-png {
+    display: flex;
+    justify-content: center;
+}
+.skill-logo-png img {
+    width: 40px;
+    height: auto;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+.tool-text{
+    font-size: 20px;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .tools-used{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .skill-logo-png {
+        display: flex;
+        justify-content: center;
+    }
+    .skill-logo-png img {
+        width: 20px;
+        height: auto;
+        margin: 15px 15px 0px 0px;
+        margin-bottom: 0px;
+    }
+    .tool-text{
+        font-size: 10px;
+        color: white;
+    }
+}

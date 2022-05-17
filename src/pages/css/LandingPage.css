@@ -1,0 +1,12 @@
+
+.intro-contnts, .achieve-contnts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav-contents{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}

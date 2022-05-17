@@ -1,0 +1,93 @@
+.Accodion-content{
+    margin-top: 30px;
+    display: flex;
+    width: 90vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.acc-head{
+    width: 90vw;
+}
+.accordion {
+    background-color: darkgrey;
+    text-align: center;
+}
+.accordion-button {
+    all: unset;
+    height: 60px;
+    width: 80vw;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(160, 73, 73);
+    border-image: linear-gradient(to left, red, purple) 1;
+    
+    /* border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, red, purple) 1; */    
+}
+.accordion-item{
+    background-color: rgb(0, 0, 0);;
+}
+.accordion-header{
+    /* background-color: chocolate; */
+}
+.carousel{
+    width: 900px;
+}
+.accordion-body{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+@media only screen and (max-width: 1000px) {
+    .Accodion-content{
+        margin-top: 15px;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .acc-head{
+        width: 100%;
+    }
+    .accordion {
+        background-color: darkgrey;
+        text-align: center;
+    }
+    .accordion-button {
+        all: unset;
+        height: 20px;
+        width: 100vw;
+        background-color: rgb(36, 33, 33);
+        color: white;
+        font-size: 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(160, 73, 73);
+        border-image: linear-gradient(to left, red, purple) 1;
+        
+        /* border-width: 5px;
+        border-style: solid;
+        border-image: linear-gradient(to right, red, purple) 1; */    
+    }
+    .accordion-item{
+        background-color: rgb(44, 25, 25);;
+    }
+    .accordion-header{
+        /* background-color: chocolate; */
+    }
+    .carousel{
+        width: 900px;
+    }
+    .accordion-body{
+        display: flex;
+        /* text-align: center; */
+        justify-content: center;
+        /* align-items: center; */
+    }
+}

@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+#main-02{
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 2px solid red;
+    border-image: linear-gradient(to right, red, purple) 1;
+    margin-left: 10%;
+    color: white;
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+    font-size: 60px;
+}
+.webdev{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.carousel{
+    width: 1500px;
+}
+@media only screen and (max-width: 1000px) {
+    #main-02{
+        font-family: 'Roboto Mono', monospace;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 20px;
+        border-top: 1px solid red;
+        border-image: linear-gradient(to right, red, purple) 1; 
+        color: white;
+        border-radius: 5px 5px 0 0;
+        padding: 5px;
+        font-size: 20px;
+    }
+    .webdev{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .carousel-header{
+        font-size: 10px;
+    }
+    .carousel-texts{
+        font-size: 5px;
+    }
+    
+}
