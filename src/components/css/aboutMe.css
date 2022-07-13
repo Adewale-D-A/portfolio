@@ -1,151 +1,209 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Work+Sans:ital,wght@0,200;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Work+Sans:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Work+Sans:ital,wght@0,200;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Work+Sans:wght@200&display=swap");
 
-.about{
-    background-image: url(../../staticIMG/AboutMe.png);
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: auto;
-    font-size: 40px;
-    color: white;
-    height: auto;    
-    margin-left: 10%;
-    margin-right: 10%;
-    border-top: 2px solid;
-    border-image: linear-gradient(to right, red, purple) 1;
+.about {
+  background-image: url(../../staticIMG/AboutMe.png);
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: auto;
+  font-size: 40px;
+  color: white;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-top: 2px solid;
+  border-image: linear-gradient(to right, red, purple) 1;
 }
 a {
-    all:unset;
+  all: unset;
 }
-.body-content{
-    width: 60vw;
+.body-content {
+  width: 60vw;
 }
-#main-03{
-    font-size: 60px;;
+#main-03 {
+  font-size: 60px;
 }
-.about-text, .about-text-02{
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Work Sans', sans-serif;
-    font-size:30px; 
-    /* width:"70vw"; */
+.about-text,
+.about-text-02 {
+  font-family: "Roboto Mono", monospace;
+  font-family: "Work Sans", sans-serif;
+  font-size: 30px;
+  /* width:"70vw"; */
 }
 .about-skills {
-    display: flex;
+  display: flex;
 }
 .card-styling {
-    width:  17rem;
-    color: black;
-    height:450px;
+  width: 17rem;
+  color: black;
+  height: 450px;
 }
-.card-title{
-    font-size: 25px;
+.card-title {
+  font-size: 25px;
 }
-.card-text{
-    font-size: 20px;
+.card-text {
+  font-size: 20px;
 }
-.card-element{
-    padding: 15px;
+.card-element {
+  padding: 15px;
 }
 .status {
-    background-color: rgb(64, 146, 47);
-    padding: 10px;
-    border-radius: 10px;
-    font-weight: 900;
-    width: 18vw;
+  background-color: rgb(64, 146, 47);
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 900;
+  width: 18vw;
 }
 .resume-download {
-    margin-top: 50px;
-    font-size:30px;
-    width:58rem;
+  margin-top: 50px;
+  font-size: 30px;
+  width: 58rem;
 }
 .resume-download > a {
-    text-decoration: none ;
+  text-decoration: none;
+  background-color: rgb(65, 148, 173);
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Work Sans", sans-serif;
+}
+.resume-download > a:hover {
+  cursor: pointer;
+  background-color: rgb(54, 69, 73);
+}
+
+/* Download css styling */
+.loader-download {
+  width: 48px;
+  height: 12px;
+  background: #fff;
+  margin-top: 40px;
+  display: inline-block;
+  position: relative;
+}
+.loader-download::after {
+  content: "";
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  position: absolute;
+  border: 15px solid transparent;
+  border-top-color: #fff;
+  box-sizing: border-box;
+  animation: bump 0.4s ease-in-out infinite alternate;
+}
+.loader-download::before {
+  content: "";
+  left: 50%;
+  bottom: 25px;
+  transform: translate(-50%, 0);
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  background: #fff;
+  box-sizing: border-box;
+  animation: bump 0.4s ease-in-out infinite alternate;
+}
+
+@keyframes bump {
+  0% {
+    transform: translate(-50%, 5px);
+  }
+  100% {
+    transform: translate(-50%, -5px);
+  }
+}
+.loader-download:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+.loader-download:hover::before {
+  cursor: pointer;
+  color: aquamarine;
+  background: blueviolet;
+  background-color: blue;
+}
+.loader-download:hover::after {
+  cursor: pointer;
+  border-top-color: blue;
+}
+@media only screen and (max-width: 1000px) {
+  .about {
+    background-image: url(../../staticIMG/AboutMeResponsive.png);
+    /* background-size: cover; */
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 30%;
+    color: white;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-top: 1px solid red;
+    border-image: linear-gradient(to right, red, purple) 1;
+  }
+  a {
+    all: unset;
+  }
+  .body-content {
+    width: auto;
+  }
+  #main-03 {
+    font-family: "Roboto Mono", monospace;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    padding: 5px;
+    font-size: 20px;
+  }
+  .about-text,
+  .about-text-02 {
+    font-family: "Roboto Mono", monospace;
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    width: 80%;
+    /* width:"70vw"; */
+  }
+  .card-styling {
+    width: 6.4rem;
+    color: black;
+    height: 200px;
+  }
+  .card-title {
+    font-size: 10px;
+  }
+  .card-text {
+    font-size: 6px;
+  }
+  .about-skills {
+    display: flex;
+  }
+  .card-element {
+    padding: 3px;
+  }
+  .status {
+    background-color: rgb(64, 146, 47);
+    padding: 2px;
+    border-radius: 3px;
+    font-weight: 900;
+    margin-top: 10px;
+    width: 40vw;
+  }
+  .resume-download {
+    margin-top: 15px;
+  }
+  .resume-download > a {
+    text-decoration: none;
     background-color: rgb(65, 148, 173);
     border-radius: 10px;
     padding: 10px 30px 10px 30px;
     color: white;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Work Sans', sans-serif;
-}
-.resume-download > a:hover{
-    cursor: pointer;
-    background-color: rgb(54, 69, 73);
-}
-@media only screen and (max-width: 1000px) {
-    .about{
-        background-image: url(../../staticIMG/AboutMeResponsive.png);
-        /* background-size: cover; */
-        background-repeat: repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: 30%;
-        color: white;
-        height: auto;     
-        margin-left: 2%;
-        margin-right: 2%;
-        border-top: 1px solid red;
-        border-image: linear-gradient(to right, red, purple) 1; 
-    }
-    a {
-        all:unset;
-    }
-    .body-content{
-        width: auto;
-    }
-    #main-03{        
-        font-family: 'Roboto Mono', monospace;       
-        color: white;
-        border-radius: 5px 5px 0 0;
-        padding: 5px;
-        font-size: 20px;
-    }
-    .about-text, .about-text-02{
-        font-family: 'Roboto Mono', monospace;
-        font-family: 'Work Sans', sans-serif;
-        font-size: 15px; 
-        width: 80%;
-        /* width:"70vw"; */
-    }
-    .card-styling {
-        width:  6.4rem;
-        color: black;
-        height: 200px;
-    }
-    .card-title{
-        font-size: 10px;
-    }
-    .card-text{
-        font-size: 6px;
-    }
-    .about-skills {
-        display: flex;
-    }
-    .card-element{
-        padding: 3px;
-    }
-    .status {
-        background-color: rgb(64, 146, 47);
-        padding: 2px;
-        border-radius: 3px;
-        font-weight: 900;
-        margin-top: 10px;
-        width: 40vw;
-    }
-    .resume-download {
-        margin-top: 15px;
-    }
-    .resume-download > a {
-        text-decoration: none ;
-        background-color: rgb(65, 148, 173);
-        border-radius: 10px;
-        padding: 10px 30px 10px 30px;
-        color: white;
-        font-family: 'Roboto Mono', monospace;
-        font-family: 'Work Sans', sans-serif;
-        font-size: 15px;
-        width:auto;
-    }    
+    font-family: "Roboto Mono", monospace;
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    width: auto;
+  }
 }

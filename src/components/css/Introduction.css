@@ -1,92 +1,82 @@
-body{
-    background-color: rgb(0, 0, 0);
+@font-face {
+  font-family: Orbitron-VariableFont_wght;
+  src: url(../../fonts/Orbitron-VariableFont_wght.ttf);
 }
 @font-face {
-    font-family: Orbitron-VariableFont_wght;
-    src: url(../../fonts/Orbitron-VariableFont_wght.ttf);
+  font-family: Montserrat-Italic;
+  src: url(../../fonts/Montserrat-Italic-VariableFont_wght.ttf);
 }
 @font-face {
-    font-family: Montserrat-Italic;
-    src: url(../../fonts/Montserrat-Italic-VariableFont_wght.ttf);
-}
-@font-face {
-    font-family: Montserrat;
-    src: url(../../fonts/Montserrat-VariableFont_wght.ttf);
+  font-family: Montserrat;
+  src: url(../../fonts/Montserrat-VariableFont_wght.ttf);
 }
 .intro-content {
+  /* margin-top: 20px; */
+  display: flex;
+  flex: 1;
+  /* background-color: red; */
+  padding: 50px 0px 50px 0px;
+}
+.image {
+  border-radius: 10px;
+  width: 200px;
+}
+.header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.typical-content {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cerfication-cont {
+  display: flex;
+  justify-content: space-between;
+}
+.cetificate {
+  margin-right: 30px;
+  width: 150px;
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: rgb(53, 46, 46);
+  }
+  .intro-content {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    height: 400px;
-    border-width: 5px;
+    height: 100px;
+    border-width: 2px;
     border-style: solid;
     border-image: linear-gradient(to right, red, purple) 1;
     /* border: 10px solid; */
     /* border-radius: 10px; */
-}
-.header-content {
+  }
+  .header-content {
     flex: 1;
-    margin-left: 2%;
-    margin-right: 70px;
-    border-right: 2px solid rgb(235, 141, 141);
-}
-.welcome-text {
-    font-size: 100px;
-    font-family: 'Montserrat';
+    margin-left: 1%;
+    margin-right: 10px;
+    border-right: 1px solid rgb(235, 141, 141);
+  }
+  .welcome-text {
+    font-size: 20px;
+    font-family: "Montserrat";
     font-style: normal;
+    font-weight: 900;
     padding-right: 1px;
-    color: white;
     /* color: white; */
-}
-.typical-ccontent{    
-    flex: 1;    
+  }
+  .typical-ccontent {
+    flex: 1;
     margin-right: 2%;
     /* background-color: aquamarine; */
-    font-family: 'Orbitron-VariableFont_wght';
+    font-family: "Orbitron-VariableFont_wght";
     font-style: normal;
-    font-size: 50px;
+    font-size: 15px;
     color: rgb(96, 189, 116);
-}
-
-@media only screen and (max-width: 1000px) {
-    body{
-        background-color: rgb(53, 46, 46);
-    }
-    .intro-content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 100%;
-        height: 100px;
-        border-width: 2px;
-        border-style: solid;
-        border-image: linear-gradient(to right, red, purple) 1;
-        /* border: 10px solid; */
-        /* border-radius: 10px; */
-    }
-    .header-content {
-        flex: 1;
-        margin-left: 1%;
-        margin-right: 10px;
-        border-right: 1px solid rgb(235, 141, 141);
-    }
-    .welcome-text {
-        font-size: 20px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 900;
-        padding-right: 1px;
-        /* color: white; */
-    }
-    .typical-ccontent{    
-        flex: 1;    
-        margin-right: 2%;
-        /* background-color: aquamarine; */
-        font-family: 'Orbitron-VariableFont_wght';
-        font-style: normal;
-        font-size: 15px;
-        color: rgb(96, 189, 116);
-    }
-    
+  }
 }
