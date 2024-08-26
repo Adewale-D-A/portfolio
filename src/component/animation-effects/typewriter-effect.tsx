@@ -4,14 +4,18 @@ export default function TypeWriterEffect({
   listItems: { id: string; label: string }[];
 }) {
   const height = 20;
+  const animationTime = 8;
   return (
     <ul
       className="dynamic-text overflow-hidden"
       style={
         {
-          "--steps": `slide 6s steps(${listItems?.length}) infinite`,
+          "--steps": `slide ${animationTime}s steps(${listItems?.length}) infinite`,
           "--itemheight": `${height}px`,
           "--totalheight": `-${height * listItems?.length}px`,
+          "--typingspeed": `typing ${
+            animationTime / listItems?.length
+          }s infinite`,
         } as any
       }
     >
