@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Portfolio Web using Next.JS
 
-## Getting Started
+=====================================
 
-First, run the development server:
+### Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This is a personal portfolio web application built using Next.js, a popular React-based framework for building server
+rendered and statically generated applications. The application is designed to showcase a developer's skills, experience,
+and projects in a visually appealing and user-friendly manner.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Home Page**: A hero section with a background image, a brief introduction, and a call
+  to action (CTA) button to encourage visitors to explore the portfolio.
+- **About Page**: A page that provides a detailed overview of the developer's background,
+  experience, and skills.
+- **Projects Page**: A page that showcases the developer's projects, including images, descriptions,
+  and links to live demos or GitHub repositories.
+- **Contact Page**: A page that provides a contact form and a map to facilitate communication
+  with the developer.
+- **Blog Page**: Writing on topics to share to users.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+> Packages used in this project
 
-## Learn More
+ <table>
+    <tr>
+      <th>Package Name</th>
+      <th>Use In App</th>
+    </tr>
+    <tr>
+      <td>framer-motion</td>
+      <td>Component and container animation effects</td>
+    </tr>
+    <tr>
+      <td>tailwindcss</td>
+      <td>CSS styling library</td>
+    </tr>
+    <tr>
+      <td>sharp</td>
+      <td>Next image optimization</td>
+    </tr>
+  </table>
 
-To learn more about Next.js, take a look at the following resources:
+> Docker commands and usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ <table>
+    <tr>
+      <th>Task</th>
+      <th>Docker command</th>
+    </tr>
+    <tr>
+      <td>Build a docker image using docker compose</td>
+      <td>docker-compose build</td>
+    </tr>
+    <tr>
+      <td>Run the image locally</td>
+      <td>docker run -d -p 8080:3000 --name portfolio portfolio:v1.0.0</td>
+    </tr>
+    <tr>
+      <td>Push Docker image to Dockerhub</td>
+      <td>docker tag portfolio:v1.0.0 adewaleda/portfolio:v1.0.0</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>docker push adewaleda/portfolio:v1.0.0</td>
+    </tr>
+    <tr>
+      <td>Pull image from DockerHub</td>
+      <td>docker pull adewaleda/portfolio:v1.0.0</td>
+    </tr>
+    </table>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    #### Visit Site
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> <a href="https://adewaleda.com/">VISIT</a>
