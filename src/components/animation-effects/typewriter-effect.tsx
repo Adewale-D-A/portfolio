@@ -21,7 +21,7 @@ export default function TypeWriterEffect({
     >
       {listItems.map((item) => (
         <li key={item?.id} className="">
-          <span className=" text-lg">{item?.label}</span>
+          <span className="">{item?.label}</span>
         </li>
       ))}
     </ul>

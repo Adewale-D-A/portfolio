@@ -11,6 +11,9 @@
   body {
     @apply dark:bg-gray-800 bg-white dark:text-white text-gray-800;
   }
+  .dynamic-text li span::after {
+    @apply dark:bg-[#1f2937] bg-white;
+  }
 }
 
 /* border gradient */
@@ -105,15 +108,16 @@
   position: absolute;
   left: 0;
   height: 100%;
-  width: 100%;
+  width: 0%;
   border-left: 2px solid red;
   animation: var(--typingspeed);
-  background: rgb(31 41 55);
+  /* background: #1f2937; */
 }
 @keyframes typing {
   100% {
     left: 100%;
     margin: 0 -35px 0 35px;
+    width: 1000%;
   }
 }
 
@@ -178,4 +182,23 @@
 
 .item8 {
   animation-delay: var(--delay);
+}
+
+/* gradient background animation */
+.menu-icon-bg {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: menuicon 10s ease infinite;
+}
+
+@keyframes menuicon {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

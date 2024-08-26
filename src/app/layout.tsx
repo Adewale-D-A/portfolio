@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Raleway, Arizonia } from "next/font/google";
 import "./globals.css";
+import Menu from "@/components/layout";
 
 const raleway = Raleway({
   subsets: ["latin"],
@@ -63,6 +64,7 @@ export default function RootLayout({
         className={`${raleway.variable} ${arizonia.variable} ${raleway.className}`}
       >
         {children}
+        <Menu />
       </body>
     </html>
   );

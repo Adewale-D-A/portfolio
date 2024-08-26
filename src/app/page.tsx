@@ -1,4 +1,4 @@
-import TypewriteEffect from "@/component/animation-effects/typewriter-effect";
+import TypewriteEffect from "@/components/animation-effects/typewriter-effect";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center border-gradient border-4 border-solid overflow-hidden">
