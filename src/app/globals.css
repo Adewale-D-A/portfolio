@@ -16,22 +16,8 @@
   }
 }
 
-/* border gradient */
-.border-gradient {
-  border-image: linear-gradient(
-    60deg,
-    #f79533,
-    #f37055,
-    #ef4e7b,
-    #a166ab,
-    #5073b8,
-    #1098ad,
-    #07b39b,
-    #6fba82
-  );
-  border-image-slice: 1;
-  animation: animatedgradient 3s ease alternate infinite;
-  transition: all;
+/* right-left flare */
+.right-left-flare {
   -webkit-mask-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0),
@@ -47,41 +33,6 @@
     rgba(0, 0, 0, 0)
   );
 }
-
-@keyframes animatedgradient {
-  0% {
-    border-image: linear-gradient(
-      70deg,
-      #f79533,
-      #f37055,
-      #ef4e7b,
-      #a166ab,
-      #5073b8,
-      #1098ad,
-      #07b39b,
-      #6fba82
-    );
-
-    border-image-slice: 1;
-  }
-  100% {
-    border-image: linear-gradient(
-      120deg,
-      #f79533,
-      #f37055,
-      #ef4e7b,
-      #a166ab,
-      #5073b8,
-      #1098ad,
-      #07b39b,
-      #6fba82
-    );
-
-    border-image-slice: 1;
-  }
-}
-
-/* border gradient */
 
 /* typewiter effect blinker*/
 .dynamic-text {

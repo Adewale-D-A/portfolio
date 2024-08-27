@@ -1,3 +1,7 @@
+##### 27.08.2024
+
+> bg home page transition
+
 ##### 26.08.2024
 
 > Speedial menu completed
