@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "bannerImg": "/image_placeholder.png",
+    "title": "Websocket: Full Duplex Communication",
+    "summary": "There are various modes of communication, we have simplex(one-way), half-duplex and full duplex",
+    "category": "communication",
+    "author": {
+      "name": "Adewale",
+      "avatar": "/image_placeholder.png",
+      "socials": [
+        {
+          "name": "linkedin",
+          "handle": "#"
+        },
+        {
+          "name": "twitter",
+          "handle": "#"
+        },
+        {
+          "name": "instagram",
+          "handle": "#"
+        }
+      ]
+    },
+    "content": [
+      {
+        "id": 2,
+        "description": "What is communication",
+        "image": ""
+      },
+      {
+        "id": 3,
+        "description": "Communication if the transmission of data from a sender to a receiver via communication medium. This medium can be water, air, land, sound etc",
+        "image": ""
+      }
+    ]
+  }
+]

@@ -1,3 +1,8 @@
+##### 1.09.2024
+
+> Blogs and blog by ID layout development
+> Portfolio page layout
+
 ##### 27.08.2024
 
 > bg home page transition

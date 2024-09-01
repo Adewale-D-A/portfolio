@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import BlogsIcon from "@/statics/icons/blog";
 import ContactIcon from "@/statics/icons/contact";
@@ -5,8 +7,11 @@ import HomeIcon from "@/statics/icons/home";
 import MenuIcon from "@/statics/icons/menu";
 import ProfileIcon from "@/statics/icons/profile";
 import Projects from "@/statics/icons/projects";
+import { useRouter } from "next/navigation";
+import NavigateBackIcon from "@/statics/icons/navigate-back";
 
 export default function MenuSpeedDial() {
+  const router = useRouter();
   return (
     <div className=" group flex flex-row-reverse gap-3 hover:shadow-lg shadow-white rounded-full pl-4">
       <button
@@ -21,43 +26,67 @@ export default function MenuSpeedDial() {
           {
             id: 1,
             name: "Home",
-            url: "#",
+            url: "/",
             icon: <HomeIcon />,
           },
           {
             id: 2,
             name: "Projects",
-            url: "#",
+            url: "/projects",
             icon: <Projects />,
           },
           {
             id: 3,
             name: "Blogs",
-            url: "#",
+            url: "/blogs",
             icon: <BlogsIcon />,
           },
           {
             id: 4,
             name: "About",
-            url: "#",
+            url: "/about-me",
             icon: <ProfileIcon />,
           },
           {
             id: 5,
             name: "Contact",
-            url: "#",
+            url: "/contact-me",
             icon: <ContactIcon />,
           },
-        ].map((item) => (
-          <Link
-            href={item?.url}
-            key={item?.id}
-            title={item?.name}
-            className=" hover:text-red-300"
-          >
-            {item?.icon}
-          </Link>
-        ))}
+          {
+            id: 6,
+            name: "Back",
+            url: "/",
+            icon: <ContactIcon />,
+            isButton: true,
+            clickHandler: router.back,
+          },
+        ].map((item) => {
+          if (item?.isButton) {
+            return (
+              <button
+                key={item?.id}
+                type="button"
+                title={item?.name}
+                onClick={() => item?.clickHandler()}
+                className=" hover:text-red-300"
+              >
+                <NavigateBackIcon />
+              </button>
+            );
+          } else {
+            return (
+              <Link
+                href={item?.url}
+                key={item?.id}
+                title={item?.name}
+                className=" hover:text-red-300"
+              >
+                {item?.icon}
+              </Link>
+            );
+          }
+        })}
       </div>
     </div>
   );
