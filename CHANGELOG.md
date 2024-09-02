@@ -1,3 +1,7 @@
+##### 2.09.2024
+
+> Portfolio UI Layout and components development
+
 ##### 1.09.2024
 
 > Blogs and blog by ID layout development

@@ -20,7 +20,7 @@ export default function Blogs() {
             Through my mind
           </Link>
           <p className=" text-grey_one-500">
-            Impactful blog contents. Let's learn together
+            Impactful blog contents. Let&apos;s learn together
           </p>
         </div>
         <div className="w-full flex flex-col gap-4 my-10">

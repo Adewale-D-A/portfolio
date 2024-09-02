@@ -2,10 +2,11 @@ import Image from "next/image";
 import partners from "@/statics/assets/partner.json";
 
 export default function InfiniteScroll() {
-  const width = 100;
+  const width = 50;
   return (
     <div
-      className={`w-full h-[${width}px] wrapper whitespace-nowrap grayscale max-w-screen-xl relative overflow-hidden`}
+      style={{ height: width }}
+      className={`w-full h-[${width}px]  wrapper whitespace-nowrap max-w-screen-xl relative overflow-hidden`}
     >
       {partners.map(({ id, logo, name }, index) => (
         <div
