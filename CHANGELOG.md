@@ -1,3 +1,7 @@
+##### 14.09.2024
+
+> Project page UI development
+
 ##### 2.09.2024
 
 > Portfolio UI Layout and components development

@@ -1,37 +1,67 @@
 [
   {
     "id": 1,
-    "logo": "/logo192.png",
-    "name": "adewale"
+    "logo": "/partners/socialiga.png",
+    "name": "Socialiga"
   },
   {
     "id": 2,
-    "logo": "/logo192.png",
-    "name": "adewale"
+    "logo": "/partners/mindwalks.png",
+    "name": "Mindwalks"
   },
   {
     "id": 3,
-    "logo": "/logo192.png",
-    "name": "adewale"
+    "logo": "/partners/99apt.png",
+    "name": "99Apartments"
   },
   {
     "id": 4,
-    "logo": "/logo192.png",
-    "name": "adewale"
+    "logo": "/partners/farmsmarter.png",
+    "name": "FarmSmarter"
   },
   {
     "id": 5,
-    "logo": "/logo192.png",
-    "name": "adewale"
+    "logo": "/partners/mia.jpg",
+    "name": "MIA"
   },
   {
     "id": 6,
-    "logo": "/logo192.png",
-    "name": "adewale"
+    "logo": "/partners/jamb.png",
+    "name": "Jamb"
   },
   {
     "id": 7,
-    "logo": "/logo192.png",
-    "name": "adewale"
+    "logo": "/partners/7thcare.png",
+    "name": "7thCare"
+  },
+  {
+    "id": 8,
+    "logo": "/partners/fiatexpress.png",
+    "name": "FiatExpress"
+  },
+  {
+    "id": 9,
+    "logo": "/partners/99keys.png",
+    "name": "99Keys"
+  },
+  {
+    "id": 10,
+    "logo": "/partners/krent.png",
+    "name": "Krent"
+  },
+  {
+    "id": 11,
+    "logo": "/partners/premium-souvenirs.png",
+    "name": "Premium Souvenirs"
+  },
+  {
+    "id": 12,
+    "logo": "/partners/morgen_green.jpeg",
+    "name": "Morgen Green"
+  },
+  {
+    "id": 13,
+    "logo": "/partners/aad.png",
+    "name": "AAD"
   }
 ]

@@ -1,21 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ProjectCard() {
+export default function ProjectCard({
+  url,
+  name,
+  category,
+}: {
+  url: string;
+  name: string;
+  category: string;
+}) {
   return (
-    <div className=" flex flex-col gap-2 p-3 rounded-md shadow">
-      <Link href={"#"} className=" w-full h-32 overflow-hidden rounded">
+    <div className="w-full flex flex-col gap-2">
+      <Link href={"#"} className=" w-full h-32 overflow-hidden rounded-t">
         <Image
-          src={"/image_placeholder.png"}
+          src={url ? url : "/image_placeholder.png"}
           alt="project 1"
           height={300}
           width={300}
-          className=""
+          className=" w-full h-full object-cover md:object-left-top"
         />
       </Link>
-      <div>
-        <h6>Farmers AgriTech Solution</h6>
-        <p className=" text-sm">Web App</p>
+      <div className=" p-2 shadow-md rounded-b">
+        <h6 className=" font-semibold">{name}</h6>
+        <span className=" text-xs">{category}</span>
       </div>
     </div>
   );

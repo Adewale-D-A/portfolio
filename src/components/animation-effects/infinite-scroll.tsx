@@ -27,7 +27,8 @@ export default function InfiniteScroll() {
             alt={name}
             height={300}
             width={300}
-            className={`w-full h-auto aspect-square object-contain `}
+            className={`w-full h-auto aspect-square object-contain rounded-lg`}
+            title={name}
           />
         </div>
       ))}

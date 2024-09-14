@@ -73,3 +73,32 @@ and projects in a visually appealing and user-friendly manner.
     #### Visit Site
 
 > <a href="https://adewaleda.com/">VISIT</a>
+
+##### Projects Developed
+
+- <a href="https://farmsmarter.app/">FarmSmarter Website</a>
+- <a href="https://beta-webapp.farmsmarter.app/">FarmSmarter WebApp</a>
+- <a href="https://www.mindwalks.org/">Mindwalks Website</a>
+- <a href="https://www.7thcare.com/">7thCare Website</a>
+- <a href="https://7thcarehospitals.vercel.app/">7thCare Hospitals</a>
+- <a href="https://www.the99apartments.com/">99Apartment</a>
+- <a href="https://www.fiatexpress.com/">FiatExpress</a>
+- <a href="https://www.mentorintroafrica.com/">MentorIntroAfrica</a>
+- <a href="https://premium-souvenirs.vercel.app/">Premium Souvenir Web App</a>
+- <a href="https://tutorial-hub-umber.vercel.app/">Tutorial Hub</a>
+- <a href="https://project-frontend-indol-theta.vercel.app/">Fingerprint Attendance Manager</a>
+
+##### Companies I have worked with
+
+- Jamb
+- FarmSmarter
+- PCI Investments Ltd
+- 99Apartments
+- 99Keys
+- SocialLiga
+- FiatExpress
+- MentorIntroAfrica
+- Mindwalks
+- Premium Souvenirs
+- 7thCare
+- Tutorial Hub
