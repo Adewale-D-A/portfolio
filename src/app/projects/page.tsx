@@ -32,7 +32,7 @@ export default function Projects() {
           <div className=" w-full flex flex-1 md:flex-[0.5] rounded-md overflow-hidden max-h-72">
             <Image
               src={
-                `${BASE_URL}/fingerprint/fingerprint_web.gif` ||
+                `${BASE_URL}/screenshotsdata/fingerprint/fingerprint_web.gif` ||
                 "/image_placeholder.png"
               }
               alt="latest project"

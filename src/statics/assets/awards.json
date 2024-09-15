@@ -1,0 +1,44 @@
+[
+  {
+    "id": "feticon-sdg-ai",
+    "name": "Feticon SDG AI",
+    "description": "Feticon SDG AI is a platform that uses AI to help individuals",
+    "image": "/awards/FETiCON_SDG_AI_winner.JPG"
+  },
+  {
+    "id": "feticon-poster",
+    "name": "Feticon Poster Design",
+    "description": "Feticon poster design",
+    "image": "/awards/FETiCON_Poster_winner.JPG"
+  },
+  {
+    "id": "feticon-3min-challenge",
+    "name": "Feticon 3mins Challenge",
+    "description": "Feticon 3 mins challenge",
+    "image": "/awards/FETiCON_3mins_challenge.JPG"
+  },
+  {
+    "id": "google-cloud-certificate",
+    "name": "Google Cloud Certificate",
+    "description": "Certificate of completion of google cloud dev",
+    "image": "/awards/Google%20Clouds%20%20Certification.jpg"
+  },
+  {
+    "id": "isa-membership",
+    "name": "iSA Membership",
+    "description": "ISA Certifcate",
+    "image": "/awards/ISA_membership_certificate.png"
+  },
+  {
+    "id": "aws-cloud-dev",
+    "name": "AWS Cloud Udacity",
+    "description": "AWS Cloud Udacity dev",
+    "image": "/awards/Udacity_Cloud_dev.jpg"
+  },
+  {
+    "id": "community-experience",
+    "name": "COBES",
+    "description": "Community Participation",
+    "image": "/awards/community_experience.JPG"
+  }
+]

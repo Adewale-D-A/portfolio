@@ -1,3 +1,8 @@
+##### 15.09.2024
+
+> Work Experience update
+> About me Ui development
+
 ##### 14.09.2024
 
 > Project page UI development

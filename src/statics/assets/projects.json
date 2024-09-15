@@ -6,10 +6,10 @@
     "category": "Agriculture",
     "stacks": ["Next.js", "TypeScript", "Docker", "AWS"],
     "images": [
-      "/fs/website/fs_1.png",
-      "/fs/website/fs_2.png",
-      "/fs/website/fs_3.png",
-      "/fs/website/fs_4.png"
+      "/screenshotsdata/fs/website/fs_1.png",
+      "/screenshotsdata/fs/website/fs_2.png",
+      "/screenshotsdata/fs/website/fs_3.png",
+      "/screenshotsdata/fs/website/fs_4.png"
     ],
     "about": "FarmSmarter is a web application that helps farmers optimize their crop yields and reduce waste."
   },
@@ -20,12 +20,12 @@
     "category": "Agriculture",
     "stacks": ["React.js", "JavaScript", "Docker", "AWS", "TailwindCSS"],
     "images": [
-      "/fs/webapp/webapp_1.png",
-      "/fs/webapp/webapp_2.png",
-      "/fs/webapp/webapp_3.png",
-      "/fs/webapp/webapp_4.png",
-      "/fs/webapp/webapp_5.png",
-      "/fs/webapp/webapp_6.png"
+      "/screenshotsdata/fs/webapp/webapp_1.png",
+      "/screenshotsdata/fs/webapp/webapp_2.png",
+      "/screenshotsdata/fs/webapp/webapp_3.png",
+      "/screenshotsdata/fs/webapp/webapp_4.png",
+      "/screenshotsdata/fs/webapp/webapp_5.png",
+      "/screenshotsdata/fs/webapp/webapp_6.png"
     ],
     "about": "FarmSmarter is a web application that helps farmers optimize their crop yields and reduce waste."
   },
@@ -36,9 +36,9 @@
     "category": "IT",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
     "images": [
-      "/mindwalks/mw_1.png",
-      "/mindwalks/mw_2.png",
-      "/mindwalks/mw_3.png"
+      "/screenshotsdata/mindwalks/mw_1.png",
+      "/screenshotsdata/mindwalks/mw_2.png",
+      "/screenshotsdata/mindwalks/mw_3.png"
     ],
     "about": "Mindwalks is a state-of-the-art IT solutions with a focus on innovation, reliability and performance."
   },
@@ -48,7 +48,10 @@
     "type": "Website",
     "category": "Telemedecine",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
-    "images": ["/7thcare/website/care_1.png", "/7thcare/website/care_2.png"],
+    "images": [
+      "/screenshotsdata/7thcare/website/care_1.png",
+      "/screenshotsdata/7thcare/website/care_2.png"
+    ],
     "about": "Streamline operations, enhance patient care, and maximise efficiency with our custom healthcare automation solutions and personalised guidance from expert advisors."
   },
   {
@@ -58,8 +61,8 @@
     "category": "Telemedecine",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
     "images": [
-      "/7thcare/hospitals/hospitals_1.png",
-      "/7thcare/hospitals/hospitals_2.png"
+      "/screenshotsdata/7thcare/hospitals/hospitals_1.png",
+      "/screenshotsdata/7thcare/hospitals/hospitals_2.png"
     ],
     "about": "Expands Access To Care For Patients And Supports Community Health Staff And Junior Doctors."
   },
@@ -69,7 +72,10 @@
     "type": "WebApp",
     "category": "PropTech",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
-    "images": ["/99apt/99apt_1.png", "/99apt/99apt_2.png"],
+    "images": [
+      "/screenshotsdata/99apt/99apt_1.png",
+      "/screenshotsdata/99apt/99apt_2.png"
+    ],
     "about": "Designed to solve all your property and rental problems."
   },
   {
@@ -78,7 +84,10 @@
     "type": "WebApp",
     "category": "FinTech",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
-    "images": ["/fiatexpress/fe_1.png", "/fiatexpress/fe_2.png"],
+    "images": [
+      "/screenshotsdata/fiatexpress/fe_1.png",
+      "/screenshotsdata/fiatexpress/fe_2.png"
+    ],
     "about": "Fiat Express ensures secure, swift, and easy peer to peer currency exchange at rates that suits you"
   },
   {
@@ -87,7 +96,11 @@
     "type": "WebApp",
     "category": "Councelling",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
-    "images": ["/mia/mia_1.png", "/mia/mia_2.png", "/mia/mia_3.png"],
+    "images": [
+      "/screenshotsdata/mia/mia_1.png",
+      "/screenshotsdata/mia/mia_2.png",
+      "/screenshotsdata/mia/mia_3.png"
+    ],
     "about": "Unlock Your Potential with Mentor Guidance"
   },
   {
@@ -97,9 +110,9 @@
     "category": "ECommerce",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
     "images": [
-      "/premium-sourvenirs/ps_1.png",
-      "/premium-sourvenirs/ps_2.png",
-      "/premium-sourvenirs/ps_3.png"
+      "/screenshotsdata/premium-sourvenirs/ps_1.png",
+      "/screenshotsdata/premium-sourvenirs/ps_2.png",
+      "/screenshotsdata/premium-sourvenirs/ps_3.png"
     ],
     "about": "Corporate Gifts, Party Souvenirs, School Uniforms and Branding"
   },
@@ -109,18 +122,21 @@
     "type": "WebApp",
     "category": "Education",
     "stacks": ["React.js", "TypeScript", "TailwindCSS"],
-    "images": ["/tuthub/tuthub_1.png", "/tuthub/tuthub_2.png"],
+    "images": [
+      "/screenshotsdata/tuthub/tuthub_1.png",
+      "/screenshotsdata/tuthub/tuthub_2.png"
+    ],
     "about": "All in one learning platform for students and teachers"
   },
   {
     "id": "attendance-manager",
     "name": "Fingerprint Attendance Manager",
     "type": "WebApp",
-    "category": "Education",
+    "category": "Security",
     "stacks": ["React.js", "TypeScript", "TailwindCSS"],
     "images": [
-      "/fingerprint/fingerprint_1.png",
-      "/fingerprint/fingerprint_2.png"
+      "/screenshotsdata/fingerprint/fingerprint_1.png",
+      "/screenshotsdata/fingerprint/fingerprint_2.png"
     ],
     "about": "Fingerprint Attendance Management System"
   }

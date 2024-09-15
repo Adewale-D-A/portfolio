@@ -8,7 +8,7 @@ export default function ProjectCard({
 }: {
   url: string;
   name: string;
-  category: string;
+  category?: string;
 }) {
   return (
     <div className="w-full flex flex-col gap-2">
