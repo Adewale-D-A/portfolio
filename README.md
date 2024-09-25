@@ -10,7 +10,7 @@ and projects in a visually appealing and user-friendly manner.
 
 ### Features
 
-- **Home Page**: A hero section with a background image, a brief introduction, and a call
+- **Home Page**: A brief introduction, and a call
   to action (CTA) button to encourage visitors to explore the portfolio.
 - **About Page**: A page that provides a detailed overview of the developer's background,
   experience, and skills.
