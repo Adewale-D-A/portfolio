@@ -46,7 +46,7 @@ and projects in a visually appealing and user-friendly manner.
  <table>
     <tr>
       <th>Task</th>
-      <th>Docker command</th>
+      <th>Docker commands</th>
     </tr>
     <tr>
       <td>Build a docker image using docker compose</td>
