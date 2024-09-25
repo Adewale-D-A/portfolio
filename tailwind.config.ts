@@ -21,6 +21,9 @@ const config: Config = {
         raleway: ["var(--font-raleway)"],
         arizonia: ["var(--font-arizonia)"],
       },
+      colors: {
+        dark: "#1f2937",
+      },
     },
   },
   plugins: [],

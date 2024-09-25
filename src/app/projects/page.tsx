@@ -52,6 +52,8 @@ export default function Projects() {
               category={item?.category}
               url={`${BASE_URL}${item?.images[0]}`}
               key={item?.id}
+              mainUrl={item?.link}
+              miniUrl={`/projects/${item?.id}`}
             />
           ))}
         </div>

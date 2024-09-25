@@ -22,6 +22,10 @@ export default function Home() {
                   id: "3",
                   label: "write C++ codes for robotics",
                 },
+                {
+                  id: "4",
+                  label: "develop fullstack applications",
+                },
               ]}
             />
           </div>

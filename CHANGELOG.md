@@ -1,3 +1,8 @@
+##### 25.09.2024
+
+> Contact page ui development
+> Projects UI update
+
 ##### 15.09.2024
 
 > Work Experience update

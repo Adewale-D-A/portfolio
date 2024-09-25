@@ -94,6 +94,7 @@ export default function Projects() {
               "C++",
               "AWS",
               "AZURE",
+              "MySQL",
             ].map((item) => (
               <span key={item} className=" rounded-md bg-purple-500/15 p-3">
                 {item}
@@ -143,6 +144,8 @@ export default function Projects() {
                 name={item?.name}
                 url={`${BASE_URL}${item?.image}`}
                 key={item?.id}
+                mainUrl="#"
+                miniUrl="#"
               />
             ))}
           </div>
