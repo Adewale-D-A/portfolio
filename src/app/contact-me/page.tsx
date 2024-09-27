@@ -7,7 +7,8 @@ import WhatsAppIcon from "@/statics/icons/whatsapp";
 
 export const metadata: Metadata = {
   title: "Contact Me",
-  description: "Reach out to me.",
+  description:
+    "Reach out to me, let's collaborate on new and  exciting projects.",
 };
 
 export default function ConatctMe() {

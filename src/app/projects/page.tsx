@@ -6,7 +6,8 @@ import projects from "@/statics/assets/projects.json";
 
 export const metadata: Metadata = {
   title: "Portfolio",
-  description: "versatile portfolio of projects and experiences.",
+  description:
+    "versatile portfolio of projects and experiences gather from my journey as a software engineer.",
 };
 
 export default function Projects() {

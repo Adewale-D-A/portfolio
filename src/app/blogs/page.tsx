@@ -8,7 +8,8 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Blogs",
-  description: "State of the art blog contents",
+  description:
+    "New and insightful topics that gives deeper understanding of some fields in Technology and Engineering",
 };
 
 export default function Blogs() {

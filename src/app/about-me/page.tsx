@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About Me",
-  description: "Get to know me.",
+  description: "Get to know Azeez Adewale.",
 };
 
 export default function Projects() {
