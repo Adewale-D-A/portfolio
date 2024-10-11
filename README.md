@@ -46,7 +46,7 @@ and projects in a visually appealing and user-friendly manner.
  <table>
     <tr>
       <th>Task</th>
-      <th>Docker commands</th>
+      <th>Docker commands <a href="https://medium.com/@srijaanaparthy/step-by-step-guide-to-install-docker-on-amazon-linux-machine-in-aws-a690bf44b5fe">set up docker on ec2 instance</a></th>
     </tr>
     <tr>
       <td>Build a docker image using docker compose</td>

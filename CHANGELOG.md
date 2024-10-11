@@ -1,3 +1,7 @@
+##### 11.10.2024
+
+> Setting up docker on EC2 instance blog guide addition to readme
+
 ##### 25.09.2024
 
 > Contact page ui development
