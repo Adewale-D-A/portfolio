@@ -61,7 +61,7 @@ and projects in a visually appealing and user-friendly manner.
       <td>docker tag portfolio:v1.0.0 adewaleda/portfolio:v1.0.0</td>
     </tr>
     <tr>
-      <td></td>
+      <td>Push local image to repository</td>
       <td>docker push adewaleda/portfolio:v1.0.0</td>
     </tr>
     <tr>
