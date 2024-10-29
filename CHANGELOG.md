@@ -1,3 +1,8 @@
+##### 29.10.2024
+
+> Project filter option
+> Event management dashboard addition
+
 ##### 19.10.2024
 
 > Npm packages demo UI route initialization

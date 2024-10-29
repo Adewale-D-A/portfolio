@@ -2,7 +2,7 @@
   {
     "id": "farmsmarter-website",
     "name": "FarmSmarter",
-    "type": "Website",
+    "type": "website",
     "link": "https://farmsmarter.app/",
     "category": "Agriculture",
     "stacks": ["Next.js", "TypeScript", "Docker", "AWS", "TailwindCSS"],
@@ -17,7 +17,7 @@
   {
     "id": "farmsmarter-webapp",
     "name": "FarmSmarter",
-    "type": "Web App",
+    "type": "web-app",
     "link": "https://beta-webapp.farmsmarter.app/",
     "category": "Agriculture",
     "stacks": ["React.js", "JavaScript", "Docker", "AWS", "TailwindCSS"],
@@ -34,7 +34,7 @@
   {
     "id": "mindwalks-website",
     "name": "Mindwalks",
-    "type": "Website",
+    "type": "website",
     "link": "https://www.mindwalks.org/",
     "category": "IT",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
@@ -48,7 +48,7 @@
   {
     "id": "7thcare-website",
     "name": "7thCare",
-    "type": "Website",
+    "type": "website",
     "link": "https://www.7thcare.com/",
     "category": "Telemedecine",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
@@ -61,7 +61,7 @@
   {
     "id": "7thcare-hospitals",
     "name": "7thCare",
-    "type": "Website",
+    "type": "website",
     "link": "https://7thcarehospitals.vercel.app/",
     "category": "Telemedecine",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
@@ -74,7 +74,7 @@
   {
     "id": "99apartment",
     "name": "99Apartment",
-    "type": "WebApp",
+    "type": "website+app",
     "link": "https://www.the99apartments.com/",
     "category": "PropTech",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
@@ -87,7 +87,7 @@
   {
     "id": "fiatexpress",
     "name": "FiatExpress",
-    "type": "WebApp",
+    "type": "website",
     "link": "https://www.fiatexpress.com/",
     "category": "FinTech",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
@@ -100,7 +100,7 @@
   {
     "id": "mia",
     "name": "Mentor Intro Africa",
-    "type": "WebApp",
+    "type": "website",
     "link": "https://www.mentorintroafrica.com/",
     "category": "Councelling",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
@@ -114,7 +114,7 @@
   {
     "id": "premium-souvenirs",
     "name": "Premium Souvenirs",
-    "type": "WebApp",
+    "type": "web-app",
     "link": "https://premium-souvenirs.vercel.app/",
     "category": "ECommerce",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
@@ -128,7 +128,7 @@
   {
     "id": "tut-hub",
     "name": "Tutorial Hub",
-    "type": "WebApp",
+    "type": "web-app",
     "link": "https://tutorial-hub-umber.vercel.app/",
     "category": "Education",
     "stacks": ["React.js", "TypeScript", "TailwindCSS"],
@@ -141,7 +141,7 @@
   {
     "id": "attendance-manager",
     "name": "Fingerprint Attendance Manager",
-    "type": "WebApp",
+    "type": "website+app",
     "link": "https://project-frontend-indol-theta.vercel.app/",
     "category": "Security",
     "stacks": ["React.js", "TypeScript", "TailwindCSS"],
@@ -150,5 +150,18 @@
       "/screenshotsdata/fingerprint/fingerprint_2.png"
     ],
     "about": "Fingerprint Attendance Management System"
+  },
+  {
+    "id": "event-management-dashboard",
+    "name": "Event Management Dashboard",
+    "type": "web-app",
+    "link": "https://event-management-dashboard-virid.vercel.app/",
+    "category": "Admin",
+    "stacks": ["React.js", "TypeScript", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/event-mgt-dash/emt_1.png",
+      "/screenshotsdata/event-mgt-dash/emt_2.png"
+    ],
+    "about": "Event management dashboard"
   }
 ]
