@@ -13,7 +13,7 @@ import NavigateBackIcon from "@/statics/icons/navigate-back";
 export default function MenuSpeedDial() {
   const router = useRouter();
   return (
-    <div className=" group flex flex-row-reverse gap-3 hover:shadow-lg shadow-white rounded-full pl-4">
+    <div className=" group flex flex-row-reverse gap-3 hover:shadow-lg shadow-white bg-white dark:bg-dark rounded-full pl-4">
       <button
         title="menu"
         type="button"

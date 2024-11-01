@@ -1,8 +1,7 @@
-import InfiniteScroll from "@/components/animation-effects/infinite-scroll";
-import ProjectCard from "@/components/cards/projects";
 import { Metadata } from "next";
 import Image from "next/image";
-import projects from "@/statics/assets/projects.json";
+import InfiniteScroll from "@/components/animation-effects/infinite-scroll";
+import FilterProjectCards from "@/components/cards/filter-project-cards";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -44,20 +43,7 @@ export default function Projects() {
             />
           </div>
         </div>
-
-        {/* projects cards */}
-        <div className=" w-full grid-cols-2 grid md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-10">
-          {projects.map((item) => (
-            <ProjectCard
-              name={item?.name}
-              category={item?.category}
-              url={`${BASE_URL}${item?.images[0]}`}
-              key={item?.id}
-              mainUrl={item?.link}
-              miniUrl={`/projects/${item?.id}`}
-            />
-          ))}
-        </div>
+        <FilterProjectCards />
       </div>
     </section>
   );

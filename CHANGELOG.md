@@ -1,3 +1,16 @@
+##### 01.11.2024
+
+> Parroty project addition
+
+##### 29.10.2024
+
+> Project filter option
+> Event management dashboard addition
+
+##### 19.10.2024
+
+> Npm packages demo UI route initialization
+
 ##### 11.10.2024
 
 > Setting up docker on EC2 instance blog guide addition to readme
