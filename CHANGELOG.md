@@ -1,3 +1,7 @@
+##### 01.11.2024
+
+> Parroty project addition
+
 ##### 29.10.2024
 
 > Project filter option

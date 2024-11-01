@@ -163,5 +163,18 @@
       "/screenshotsdata/event-mgt-dash/emt_2.png"
     ],
     "about": "Event management dashboard"
+  },
+  {
+    "id": "parroty",
+    "name": "Parroty",
+    "type": "website",
+    "link": "https://www.parroty.fun/",
+    "category": "Website",
+    "stacks": ["React.js", "TypeScript", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/parroty/parroty_1.png",
+      "/screenshotsdata/parroty/parroty_2.png"
+    ],
+    "about": "Parroty Meme"
   }
 ]
