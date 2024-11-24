@@ -36,6 +36,12 @@
     "image": "/awards/Udacity_Cloud_dev.jpg"
   },
   {
+    "id": "isa-exec-cert",
+    "name": "ISA Executive Certificate",
+    "description": "Exiting executive certificate",
+    "image": "/awards/isa_pro.jpg"
+  },
+  {
     "id": "community-experience",
     "name": "COBES",
     "description": "Community Participation",

@@ -1,3 +1,7 @@
+##### 24.11.2024
+
+> Certificates uploads
+
 ##### 01.11.2024
 
 > Parroty project addition
