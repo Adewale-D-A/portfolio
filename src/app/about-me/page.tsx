@@ -137,7 +137,21 @@ export default function Projects() {
 
         {/* awards */}
         <div className=" flex flex-col gap-4">
-          <h2 className=" text-2xl font-arizonia">Awards.</h2>
+          <h2 className=" text-2xl font-arizonia">Awards & Certificates.</h2>
+          <div className=" flex justify-center items-center">
+            <div className=" max-w-72">
+              <Image
+                src={`${BASE_URL}/awards/engr_certification.jpg`}
+                alt="project 1"
+                height={300}
+                width={300}
+                className="w-full h-full object-cover md:object-left-top"
+              />
+              <div className=" p-2 shadow-md rounded-b relative text-center">
+                <h6 className=" font-semibold">Engr. Degree Certificate</h6>
+              </div>
+            </div>
+          </div>
           <div className=" w-full grid-cols-2 grid md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-10">
             {awards.map((item) => (
               <ProjectCard
