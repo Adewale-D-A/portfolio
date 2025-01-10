@@ -51,10 +51,7 @@ export default function Projects() {
           <h2 className=" text-2xl font-arizonia">Current Project.</h2>
           <div className=" w-full rounded-md overflow-hidden max-h-72 shadow-lg flex items-center justify-center">
             <Image
-              src={
-                `${BASE_URL}/screenshotsdata/fingerprint/fingerprint_web.gif` ||
-                "/image_placeholder.png"
-              }
+              src={`/screenshotsdata/fingerprint/fingerprint_web.gif`}
               alt="latest project"
               width={500}
               height={500}
@@ -141,7 +138,7 @@ export default function Projects() {
           <div className=" flex justify-center items-center">
             <div className=" max-w-72">
               <Image
-                src={`${BASE_URL}/awards/engr_certification.jpg`}
+                src={`/awards/engr_certification.jpg`}
                 alt="project 1"
                 height={300}
                 width={300}
@@ -156,7 +153,7 @@ export default function Projects() {
             {awards.map((item) => (
               <ProjectCard
                 name={item?.name}
-                url={`${BASE_URL}${item?.image}`}
+                url={`${item?.image}`}
                 key={item?.id}
                 mainUrl="#"
                 miniUrl="#"
