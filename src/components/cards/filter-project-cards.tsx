@@ -61,7 +61,7 @@ export default function FilterProjectCards() {
           <ProjectCard
             name={item?.name}
             category={item?.category}
-            url={`${BASE_URL}${item?.images[0]}`}
+            url={`${item?.images[0]}`}
             key={item?.id}
             mainUrl={item?.link}
             miniUrl={`/projects/${item?.id}`}

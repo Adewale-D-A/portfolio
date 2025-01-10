@@ -31,10 +31,7 @@ export default function Projects() {
           </div>
           <div className=" w-full flex flex-1 md:flex-[0.5] rounded-md overflow-hidden max-h-72">
             <Image
-              src={
-                `${BASE_URL}/screenshotsdata/fingerprint/fingerprint_web.gif` ||
-                "/image_placeholder.png"
-              }
+              src={`/screenshotsdata/fingerprint/fingerprint_web.gif`}
               alt="latest project"
               width={500}
               height={500}

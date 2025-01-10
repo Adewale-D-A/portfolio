@@ -1,3 +1,7 @@
+##### 10.01.2024
+
+> Portfolio static images additions (Azure blob repository subscription expired)
+
 ##### 24.11.2024
 
 > Certificates uploads
