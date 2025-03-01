@@ -72,29 +72,32 @@ and projects in a visually appealing and user-friendly manner.
 
     #### Visit Site
 
-> <a href="https://adewaleda.com/">VISIT</a>
+[VISIT PROFILE](https://adewaleda.com/)
 
 ##### Projects Developed
 
-- <a href="https://farmsmarter.app/">FarmSmarter Website</a>
-- <a href="https://beta-webapp.farmsmarter.app/">FarmSmarter WebApp</a>
-- <a href="https://www.mindwalks.org/">Mindwalks Website</a>
-- <a href="https://www.7thcare.com/">7thCare Website</a>
-- <a href="https://7thcarehospitals.vercel.app/">7thCare Hospitals</a>
-- <a href="https://www.the99apartments.com/">99Apartment</a>
-- <a href="https://www.fiatexpress.com/">FiatExpress</a>
-- <a href="https://www.mentorintroafrica.com/">MentorIntroAfrica</a>
-- <a href="https://premium-souvenirs.vercel.app/">Premium Souvenir Web App</a>
-- <a href="https://tutorial-hub-umber.vercel.app/">Tutorial Hub</a>
-- <a href="https://project-frontend-indol-theta.vercel.app/">Fingerprint Attendance Manager</a>
-- <a href="#">FarmSmarter Marketplace</a>
-- <a href="#">Jamb IBASS service</a>
-- <a href="#">JUPEB Attendance Management System</a>
-- <a href="#">99Apt Customer Success + Operations Super Admin WebApp</a>
+[FarmSmarter Website](https://farmsmarter.app/)
+[FarmSmarter WebApp](https://beta-webapp.farmsmarter.app/)
+[Mindwalks Website](https://www.mindwalks.org/)
+[7thCare Website](https://www.7thcare.com/)
+[7thCare Hospitals](https://7thcarehospitals.vercel.app/)
+[99Apartment](https://www.the99apartments.com/)
+[FiatExpress](https://www.fiatexpress.com/)
+[MentorIntroAfrica](https://www.mentorintroafrica.com/)
+[Premium Souvenir Web App](https://premium-souvenirs.vercel.app/)
+[Tutorial Hub](https://tutorial-hub-umber.vercel.app/)
+[Fingerprint Attendance Manager](https://project-frontend-indol-theta.vercel.app/)
+[FarmSmarter Marketplace](#)
+[Jamb IBASS service](#)
+[CARTWAY](#)
+[JUPEB Attendance Management System](#)
+[99Apt Customer Success + Operations Super Admin WebApp](#)
 
 ##### Companies I have worked with
 
 - Jamb
+- Jupeb
+- Cartway
 - FarmSmarter
 - PCI Investments Ltd
 - 99Apartments
