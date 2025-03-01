@@ -87,6 +87,9 @@ and projects in a visually appealing and user-friendly manner.
 - <a href="https://premium-souvenirs.vercel.app/">Premium Souvenir Web App</a>
 - <a href="https://tutorial-hub-umber.vercel.app/">Tutorial Hub</a>
 - <a href="https://project-frontend-indol-theta.vercel.app/">Fingerprint Attendance Manager</a>
+- <a href="#">Jamb IBASS service</a>
+- <a href="#">JUPEB Attendance Management System</a>
+- <a href="#">99Apt Customer Success + Operations Super Admin WebApp</a>
 
 ##### Companies I have worked with
 
