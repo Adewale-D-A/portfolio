@@ -1,3 +1,7 @@
+##### 24.04.2024
+
+> Project lists updates
+
 ##### 10.01.2024
 
 > Portfolio static images additions (Azure blob repository subscription expired)

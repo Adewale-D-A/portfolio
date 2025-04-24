@@ -89,9 +89,10 @@ and projects in a visually appealing and user-friendly manner.
 [Fingerprint Attendance Manager](https://project-frontend-indol-theta.vercel.app/)
 [FarmSmarter Marketplace](#)
 [Jamb IBASS service](#)
-[CARTWAY](#)
-[JUPEB Attendance Management System](#)
-[99Apt Customer Success + Operations Super Admin WebApp](#)
+[CARTWAY](https://www.cartwayhq.com/)
+[JUPEB Attendance Management System](https://attendance.jupeb.edu.ng/)
+[99Apt Customer Success + Operations Super Admin WebApp](https://staging-backoffice.the99apartments.com/)
+[iSportX](#)
 
 ##### Companies I have worked with
 
