@@ -1,5 +1,60 @@
 [
   {
+    "id": "jupeb-attendance-manager",
+    "name": "Jupeb",
+    "type": "web-app",
+    "link": "https://attendance.jupeb.edu.ng/",
+    "category": "Education",
+    "stacks": ["React.js", "TypeScript", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/jupeb-attendance-manager/jupeb_att_1.png",
+      "/screenshotsdata/jupeb-attendance-manager/jupeb_att_2.png"
+    ],
+    "about": "Jupeb new attendance tracking system."
+  },
+  {
+    "id": "facility-management",
+    "name": "99Apartment | Facility Management",
+    "type": "web-app",
+    "link": "https://staging-backoffice.the99apartments.com/",
+    "category": "PropTech",
+    "stacks": ["React.js", "TypeScript", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/99apt_facility_manager/99apt_facility_mgr_1.png",
+      "/screenshotsdata/99apt_facility_manager/99apt_facility_mgr_2.png",
+      "/screenshotsdata/99apt_facility_manager/99apt_facility_mgr_3.png"
+    ],
+    "about": "Facility management system for 99Apartments."
+  },
+  {
+    "id": "isportx",
+    "name": "iSportX",
+    "type": "web-app",
+    "link": "https://isportx.vercel.app/",
+    "category": "Sports, Scout Manager",
+    "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/iSportx/isportx_1.png",
+      "/screenshotsdata/iSportx/isportx_2.png",
+      "/screenshotsdata/iSportx/isportx_3.png"
+    ],
+    "about": "Talent scouting and management system for sports teams."
+  },
+  {
+    "id": "cartway-webapp",
+    "name": "Cartway",
+    "type": "website+app",
+    "link": "https://www.cartwayhq.com/",
+    "category": "Logistics",
+    "stacks": ["Next.js", "TypeScript", "TailwindCSS", "Supabase"],
+    "images": [
+      "/screenshotsdata/cartway/cw_1.png",
+      "/screenshotsdata/cartway/cw_2.png",
+      "/screenshotsdata/cartway/cw_3.png"
+    ],
+    "about": "Fast & Reliable Delivery Right to Your Doorstep. From food delivery to package transportation, Cartway ensures your items reach their destination quickly and safely."
+  },
+  {
     "id": "farmsmarter-website",
     "name": "FarmSmarter",
     "type": "website",

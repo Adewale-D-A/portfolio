@@ -152,6 +152,12 @@
 .item14 {
   animation-delay: var(--delay);
 }
+.item15 {
+  animation-delay: var(--delay);
+}
+.item17 {
+  animation-delay: var(--delay);
+}
 
 /* gradient background animation */
 .menu-icon-bg {

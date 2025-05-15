@@ -1,3 +1,7 @@
+##### 15.05.2024
+
+> Feature: Projects updates
+
 ##### 24.04.2024
 
 > Project lists updates

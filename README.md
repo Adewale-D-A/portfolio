@@ -92,7 +92,7 @@ and projects in a visually appealing and user-friendly manner.
 [CARTWAY](https://www.cartwayhq.com/)
 [JUPEB Attendance Management System](https://attendance.jupeb.edu.ng/)
 [99Apt Customer Success + Operations Super Admin WebApp](https://staging-backoffice.the99apartments.com/)
-[iSportX](#)
+[iSportX](https://isportx.vercel.app/)
 
 ##### Companies I have worked with
 

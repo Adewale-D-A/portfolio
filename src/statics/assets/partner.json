@@ -61,6 +61,21 @@
   },
   {
     "id": 13,
+    "logo": "/partners/cartway.png",
+    "name": "Cartway"
+  },
+  {
+    "id": 14,
+    "logo": "/partners/isportx.jpg",
+    "name": "iSportX"
+  },
+  {
+    "id": 15,
+    "logo": "/partners/jupeb.png",
+    "name": "Jupeb"
+  },
+  {
+    "id": 16,
     "logo": "/partners/aad.png",
     "name": "AAD"
   }
