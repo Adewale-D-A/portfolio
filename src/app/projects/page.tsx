@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 import InfiniteScroll from "@/components/animation-effects/infinite-scroll";
 import FilterProjectCards from "@/components/cards/filter-project-cards";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -29,7 +30,11 @@ export default function Projects() {
             </p>
             <InfiniteScroll />
           </div>
-          <div className=" w-full flex flex-1 md:flex-[0.5] rounded-md overflow-hidden max-h-72">
+          <Link
+            href={"https://attendance.adewaleda.space/"}
+            target="_blank"
+            className=" w-full flex flex-1 md:flex-[0.5] rounded-md overflow-hidden max-h-72"
+          >
             <Image
               src={`/screenshotsdata/fingerprint/fingerprint_web.gif`}
               alt="latest project"
@@ -38,7 +43,7 @@ export default function Projects() {
               className="w-full h-full object-cover"
               unoptimized
             />
-          </div>
+          </Link>
         </div>
         <FilterProjectCards />
       </div>

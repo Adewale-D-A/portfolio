@@ -197,7 +197,7 @@
     "id": "attendance-manager",
     "name": "Fingerprint Attendance Manager",
     "type": "website+app",
-    "link": "https://project-frontend-indol-theta.vercel.app/",
+    "link": "https://attendance.adewaleda.space/",
     "category": "Security",
     "stacks": ["React.js", "TypeScript", "TailwindCSS"],
     "images": [

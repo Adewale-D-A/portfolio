@@ -1,3 +1,7 @@
+##### 24.05.2024
+
+> Feature: Attendance management system personalized subdomain addition
+
 ##### 15.05.2024
 
 > Feature: Projects updates
