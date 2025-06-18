@@ -13,6 +13,19 @@
     "about": "Jupeb new attendance tracking system."
   },
   {
+    "id": "anonymize-care",
+    "name": "AnonymizeCare",
+    "type": "website",
+    "link": "https://www.anonymizecare.com/",
+    "category": "Health Care",
+    "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/anonymize_care/anon-care-2.png",
+      "/screenshotsdata/anonymize_care/anon-care-1.png"
+    ],
+    "about": "AnonymizeCare connects you to certified medical professionals—without ever revealing your identity. No names. No faces. Just care. Register in seconds, choose a nickname, and start receiving real medical advice and prescriptions from licensed consultants. Completely private. 100% secure."
+  },
+  {
     "id": "facility-management",
     "name": "99Apartment | Facility Management",
     "type": "web-app",

@@ -76,6 +76,11 @@
   },
   {
     "id": 16,
+    "logo": "/partners/anonymize_care.png",
+    "name": "AnonymizeCare"
+  },
+  {
+    "id": 17,
     "logo": "/partners/aad.png",
     "name": "AAD"
   }

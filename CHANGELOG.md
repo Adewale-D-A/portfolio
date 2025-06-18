@@ -1,16 +1,20 @@
-##### 24.05.2024
+##### 18.06.2025
+
+> Update: AnonymizeCare project added to portfolio
+
+##### 24.05.2025
 
 > Feature: Attendance management system personalized subdomain addition
 
-##### 15.05.2024
+##### 15.05.2025
 
 > Feature: Projects updates
 
-##### 24.04.2024
+##### 24.04.2025
 
 > Project lists updates
 
-##### 10.01.2024
+##### 10.01.2025
 
 > Portfolio static images additions (Azure blob repository subscription expired)
 
