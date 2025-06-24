@@ -1,3 +1,7 @@
+##### 24.06.2025
+
+> Update: Meta tags text updates
+
 ##### 18.06.2025
 
 > Update: AnonymizeCare project added to portfolio

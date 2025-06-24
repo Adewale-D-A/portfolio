@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     default: "Adewale",
   },
   description:
-    "Dedicated to producing wide range of unique user interfaces to give the best user experiences.",
+    "Driven to craft diverse, intuitive user interfaces that elevate digital experiences, build digital systems for all use-case and solve real-world problems.",
   applicationName: "Adewale's Portfolio",
   referrer: "origin-when-cross-origin",
   keywords: [
@@ -36,8 +36,11 @@ export const metadata: Metadata = {
     "backend",
     "tech",
     "fullstack",
+    "software",
+    "app",
+    "applications",
   ],
-  manifest: "https://www.adewaleda.com/manifest.json",
+  manifest: "https://www.adewaleda.space/manifest.json",
   robots: {
     index: true,
     follow: true,

@@ -6,12 +6,11 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Portfolio",
-  description:
-    "versatile portfolio of projects and experiences gather from my journey as a software engineer.",
+  description: "I design solutions. I build processes. I solve problems.",
 };
 
 export default function Projects() {
-  const BASE_URL = process.env.NEXT_PUBLIC_PROJECT_IMG_BASE_URL;
+  // const BASE_URL = process.env.NEXT_PUBLIC_PROJECT_IMG_BASE_URL;
   return (
     <section className="w-full flex justify-center">
       <div className="w-full flex flex-col gap-16 max-w-screen-xl px-5 md:px-10 py-10">
@@ -24,9 +23,9 @@ export default function Projects() {
               </p>
             </div>
             <p className="px-3">
-              Versatile in multiple technologies and design schemes essential
-              for implementing specific design pattern targeted towards
-              business&apos; core users.
+              Versatile in a broad range of technologies and design approaches,
+              with a focus on implementing tailored design patterns that serve
+              core business users.
             </p>
             <InfiniteScroll />
           </div>
