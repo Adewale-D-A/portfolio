@@ -1,8 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import crypto from "crypto";
 import { createClient } from "@/temp/server";
+import { Resend } from "resend";
 import cryptoRandomString from "crypto-random-string";
 import { handleVendorOutstandingPayment } from "../api-utils/handle-vendor-outstanding";
+import NewOrderAlertEmail from "@/temp/NewOrderAlertTemplate";
 
 const PAYSTACK_SECRET = process.env.PAYSTACK_SECRET || "";
 
@@ -13,15 +15,29 @@ export async function POST(req: NextRequest) {
       type: "distinguishable",
     })}`.toUpperCase();
   const supabase = createClient();
+  const resend = new Resend(process.env.RESEND_API_KEY);
   try {
+    // Retrieve the request's body
+    const body = await req.json();
     //validate event
     const hash = crypto
       .createHmac("sha512", PAYSTACK_SECRET)
-      .update(JSON.stringify(req.body))
+      .update(JSON.stringify(body))
       .digest("hex");
+
+    // 7. Send notification to user
+    await resend.emails.send({
+      from: "Cartway Website <website@cartwayhq.com>",
+      to: "adewale.d.a@outlook.com", //"orders@cartwayhq.com",
+      subject: "🔔New Order Alert",
+      react: NewOrderAlertEmail({
+        orderId: `order_id - ${JSON.stringify(body.data)}`,
+        name: `sender_name`,
+        phone: `sender_phone`,
+        email: `customerEmail`,
+      }),
+    });
     if (hash == req.headers.get("x-paystack-signature")) {
-      // Retrieve the request's body
-      const body = await req.json();
       // Do something with event
       if (body.event === "charge.success") {
         const data = body.data;
