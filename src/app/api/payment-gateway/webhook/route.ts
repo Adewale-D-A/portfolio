@@ -18,12 +18,12 @@ export async function POST(req: NextRequest) {
 
   try {
     //validate event
+    const body = await req.json();
     const hash = crypto
       .createHmac("sha512", PAYSTACK_SECRET)
-      .update(JSON.stringify(req.body))
+      .update(JSON.stringify(body))
       .digest("hex");
 
-    const body = await req.json();
     // 7. Send notification to user
     await resend.emails.send({
       from: "Cartway Website <website@cartwayhq.com>",
