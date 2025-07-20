@@ -1,5 +1,5 @@
-import { MODELS } from "@/services/constants";
-import { TypedSupabaseClient } from "@/lib/supabase/types";
+import { MODELS } from "@/temp/constants";
+import { TypedSupabaseClient } from "@/temp/types";
 
 type ResultType = {
   isValidReference: boolean;

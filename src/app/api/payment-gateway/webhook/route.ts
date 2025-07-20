@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import crypto from "crypto";
 import { handleOrderPayment } from "../api-utils/handle-order";
-import { createClient } from "@/lib/supabase/server";
+import { createClient } from "@/temp/server";
 import { Resend } from "resend";
-import NewOrderAlertEmail from "@/components/emails/NewOrderAlertTemplate";
-import OrderCreatedEmail from "@/components/emails/OrderCreatedTemplate";
+import NewOrderAlertEmail from "@/temp/NewOrderAlertTemplate";
+import OrderCreatedEmail from "@/temp/OrderCreatedTemplate";
 import { handleVendorOutstandingPayment } from "../api-utils/handle-vendor-outstanding";
 import { handleAODPayment } from "../api-utils/handle-aod";
 

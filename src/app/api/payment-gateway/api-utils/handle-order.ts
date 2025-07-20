@@ -1,7 +1,7 @@
-import { MODELS } from "@/services/constants";
-import { PackageOrderStatus } from "@/services/orders/orders.types";
-import { TypedSupabaseClient } from "@/lib/supabase/types";
-import { logCoupon } from "@/services/coupons/coupons.service";
+import { MODELS } from "@/temp/constants";
+import { PackageOrderStatus } from "@/temp/order-types/orders.types";
+import { TypedSupabaseClient } from "@/temp/types";
+import { logCoupon } from "@/temp/coupons.service";
 
 type ResultType = {
   isValidReference: boolean;

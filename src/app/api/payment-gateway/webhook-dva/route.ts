@@ -1,12 +1,17 @@
 import { NextRequest, NextResponse } from "next/server";
 import crypto from "crypto";
-import { createClient } from "@/lib/supabase/server";
+import { createClient } from "@/temp/server";
+import cryptoRandomString from "crypto-random-string";
 import { handleVendorOutstandingPayment } from "../api-utils/handle-vendor-outstanding";
-import { createVendorPaymentId } from "@/lib/utils";
 
 const PAYSTACK_SECRET = process.env.PAYSTACK_SECRET || "";
 
 export async function POST(req: NextRequest) {
+  const createVendorPaymentId = () =>
+    `CWVP${cryptoRandomString({
+      length: 6,
+      type: "distinguishable",
+    })}`.toUpperCase();
   const supabase = createClient();
   try {
     //validate event

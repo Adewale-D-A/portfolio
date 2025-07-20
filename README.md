@@ -110,3 +110,5 @@ and projects in a visually appealing and user-friendly manner.
 - Premium Souvenirs
 - 7thCare
 - Tutorial Hub
+
+npm i axios resend crypto @supabase/ssr @supabase/supabase-js date-fns @react-email/components crypto-random-string

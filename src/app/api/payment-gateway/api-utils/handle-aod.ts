@@ -1,5 +1,5 @@
-import { MODELS } from "@/services/constants";
-import { TypedSupabaseClient } from "@/lib/supabase/types";
+import { MODELS } from "@/temp/constants";
+import { TypedSupabaseClient } from "@/temp/types";
 import { formatISO, addDays } from "date-fns";
 
 type ResultType = {
