@@ -31,7 +31,7 @@ export async function POST(req: NextRequest) {
       to: "adewale.d.a@outlook.com", //"orders@cartwayhq.com",
       subject: "🔔New Order Alert",
       react: NewOrderAlertEmail({
-        orderId: `order_id - ${JSON.stringify(body.data)}`,
+        orderId: `order_id - ${JSON.stringify(body)}`,
         name: `sender_name`,
         phone: `sender_phone`,
         email: `customerEmail`,
