@@ -1,21 +1,21 @@
 import { NextRequest, NextResponse } from "next/server";
-import crypto from "crypto";
 import { createClient } from "@/temp/server";
 import { Resend } from "resend";
-import cryptoRandomString from "crypto-random-string";
-import { handleVendorOutstandingPayment } from "../api-utils/handle-vendor-outstanding";
+import crypto from "crypto";
+import { MODELS } from "@/temp/constants";
 import NewOrderAlertEmail from "@/temp/NewOrderAlertTemplate";
+import cryptoRandomString from "crypto-random-string";
 
 const PAYSTACK_SECRET = process.env.PAYSTACK_SECRET || "";
 
 export async function POST(req: NextRequest) {
+  const supabase = createClient();
+  const resend = new Resend(process.env.RESEND_API_KEY);
   const createVendorPaymentId = () =>
     `CWVP${cryptoRandomString({
       length: 6,
       type: "distinguishable",
     })}`.toUpperCase();
-  const supabase = createClient();
-  const resend = new Resend(process.env.RESEND_API_KEY);
   try {
     // Retrieve the request's body
     const body = await req.json();
@@ -24,6 +24,11 @@ export async function POST(req: NextRequest) {
       .createHmac("sha512", PAYSTACK_SECRET)
       .update(JSON.stringify(body))
       .digest("hex");
+    const { data: vendor } = await supabase
+      .from(MODELS.VENDORS)
+      .select("*")
+      .eq("dva_account_number", body?.receiver_account_number)
+      .single();
 
     // 7. Send notification to user
     await resend.emails.send({
@@ -32,32 +37,23 @@ export async function POST(req: NextRequest) {
       subject: "🔔New Order Alert",
       react: NewOrderAlertEmail({
         orderId: `order_id - ${JSON.stringify(body)}`,
-        name: `sender_name`,
-        phone: `sender_phone`,
+        name: `sender_name - ${JSON.stringify(vendor)}`,
+        phone: `sender_phone - ${hash}`,
         email: `customerEmail`,
       }),
     });
-    if (hash == req.headers.get("x-paystack-signature")) {
-      // Do something with event
-      if (body.event === "charge.success") {
-        const data = body.data;
-        const { amount, metadata, customer } = data;
-        const amountRecalculated = amount / 100;
-
-        const result = {
-          isValidReference: true,
-          message: "OKAY",
-          paymentStatus: "OKAY",
-          referenceId: "",
-          amount: amountRecalculated,
-          metaData: {
-            vendor_id: customer?.metadata?.vendor_id || metadata?.vendor_id,
-            user_id: customer?.metadata?.user_id || metadata?.user_id,
-            payment_id: createVendorPaymentId(),
-          },
-        };
-        await handleVendorOutstandingPayment({ supabase, result });
-      }
+    if (vendor?.id) {
+      const amount = body?.amount / 100;
+      await supabase.from(MODELS.VENDOR_DEBT_PAYMENTS).insert([
+        {
+          user_id: vendor.user_id,
+          vendor_id: vendor.vendor_id,
+          amount: amount,
+          payment_id: createVendorPaymentId(),
+          paystack_reference_id: body?.narration,
+          status: "approved",
+        },
+      ]);
     }
     return NextResponse.json({
       status: 200,
