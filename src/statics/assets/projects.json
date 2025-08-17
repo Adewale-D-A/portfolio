@@ -13,6 +13,33 @@
     "about": "Jupeb new attendance tracking system."
   },
   {
+    "id": "7thcare-website",
+    "name": "7thCare",
+    "type": "website",
+    "link": "https://www.7thcare.com/",
+    "category": "Telemedecine",
+    "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/7thcare/website/care_1.png",
+      "/screenshotsdata/7thcare/website/care_2.png"
+    ],
+    "about": "Streamline operations, enhance patient care, and maximise efficiency with our custom healthcare automation solutions and personalised guidance from expert advisors."
+  },
+  {
+    "id": "cartway-webapp",
+    "name": "Cartway",
+    "type": "website+app",
+    "link": "https://www.cartwayhq.com/",
+    "category": "Logistics",
+    "stacks": ["Next.js", "TypeScript", "TailwindCSS", "Supabase"],
+    "images": [
+      "/screenshotsdata/cartway/cw_1.png",
+      "/screenshotsdata/cartway/cw_2.png",
+      "/screenshotsdata/cartway/cw_3.png"
+    ],
+    "about": "Fast & Reliable Delivery Right to Your Doorstep. From food delivery to package transportation, Cartway ensures your items reach their destination quickly and safely."
+  },
+  {
     "id": "anonymize-care",
     "name": "AnonymizeCare",
     "type": "website",
@@ -52,20 +79,6 @@
       "/screenshotsdata/iSportx/isportx_3.png"
     ],
     "about": "Talent scouting and management system for sports teams."
-  },
-  {
-    "id": "cartway-webapp",
-    "name": "Cartway",
-    "type": "website+app",
-    "link": "https://www.cartwayhq.com/",
-    "category": "Logistics",
-    "stacks": ["Next.js", "TypeScript", "TailwindCSS", "Supabase"],
-    "images": [
-      "/screenshotsdata/cartway/cw_1.png",
-      "/screenshotsdata/cartway/cw_2.png",
-      "/screenshotsdata/cartway/cw_3.png"
-    ],
-    "about": "Fast & Reliable Delivery Right to Your Doorstep. From food delivery to package transportation, Cartway ensures your items reach their destination quickly and safely."
   },
   {
     "id": "farmsmarter-website",
@@ -112,19 +125,6 @@
       "/screenshotsdata/mindwalks/mw_3.png"
     ],
     "about": "Mindwalks is a state-of-the-art IT solutions with a focus on innovation, reliability and performance."
-  },
-  {
-    "id": "7thcare-website",
-    "name": "7thCare",
-    "type": "website",
-    "link": "https://www.7thcare.com/",
-    "category": "Telemedecine",
-    "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
-    "images": [
-      "/screenshotsdata/7thcare/website/care_1.png",
-      "/screenshotsdata/7thcare/website/care_2.png"
-    ],
-    "about": "Streamline operations, enhance patient care, and maximise efficiency with our custom healthcare automation solutions and personalised guidance from expert advisors."
   },
   {
     "id": "7thcare-hospitals",

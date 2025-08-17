@@ -1,3 +1,7 @@
+##### 17.08.2025
+
+> Update: 7thCare UI updates
+
 ##### 20.07.2025
 
 > Update: Paystack webhook test reverts
