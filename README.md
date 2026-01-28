@@ -4,20 +4,17 @@
 
 ### Project Overview
 
-This is a personal portfolio web application built using Next.js, a popular React-based framework for building server
-rendered and statically generated applications. The application is designed to showcase a developer's skills, experience,
+This is a personal portfolio web application built using Next.js. The application is designed to showcase my software engineering depth, skills, experience,
 and projects in a visually appealing and user-friendly manner.
 
 ### Features
 
-- **Home Page**: A brief introduction, and a call
-  to action (CTA) button to encourage visitors to explore the portfolio.
-- **About Page**: A page that provides a detailed overview of the developer's background,
+- **Home Page**: A brief introduction to encourage visitors to explore the portfolio.
+- **About Page**: A page that provides a detailed overview of the my background,
   experience, and skills.
-- **Projects Page**: A page that showcases the developer's projects, including images, descriptions,
-  and links to live demos or GitHub repositories.
-- **Contact Page**: A page that provides a contact form and a map to facilitate communication
-  with the developer.
+- **Projects Page**: A page that showcases the my projects, including images, descriptions,
+  and links to live demos.
+- **Contact Page**: A page that provides my contact information.
 - **Blog Page**: Writing on topics to share to users.
 
 > Packages used in this project
@@ -72,28 +69,30 @@ and projects in a visually appealing and user-friendly manner.
 
     #### Visit Site
 
-[VISIT PROFILE](https://adewaleda.com/)
+[VISIT PROFILE](https://www.adewaleda.space)
 
 ##### Projects Developed
 
-[FarmSmarter Website](https://farmsmarter.app/)
-[FarmSmarter WebApp](https://beta-webapp.farmsmarter.app/)
-[Mindwalks Website](https://www.mindwalks.org/)
-[7thCare Website](https://www.7thcare.com/)
-[7thCare Hospitals](https://7thcarehospitals.vercel.app/)
-[99Apartment](https://www.the99apartments.com/)
-[FiatExpress](https://www.fiatexpress.com/)
-[MentorIntroAfrica](https://www.mentorintroafrica.com/)
-[Premium Souvenir Web App](https://premium-souvenirs.vercel.app/)
-[Tutorial Hub](https://tutorial-hub-umber.vercel.app/)
-[Fingerprint Attendance Manager](https://project-frontend-indol-theta.vercel.app/)
-[FarmSmarter Marketplace](#)
-[Jamb IBASS service](#)
-[CARTWAY](https://www.cartwayhq.com/)
-[JUPEB Attendance Management System](https://attendance.jupeb.edu.ng/)
-[99Apt Customer Success + Operations Super Admin WebApp](https://staging-backoffice.the99apartments.com/)
-[iSportX](https://isportx.vercel.app/)
-[First Project](https://adewale-d-a.netlify.app/)
+[FarmSmarter Website](https://farmsmarter.app/) <br/>
+[FarmSmarter WebApp](https://beta-webapp.farmsmarter.app/)<br/>
+[Mindwalks Website](https://www.mindwalks.org/)<br/>
+[7thCare Website](https://www.7thcare.com/)<br/>
+[7thCare Hospitals](https://7thcarehospitals.vercel.app/)<br/>
+[99Apartment](https://www.the99apartments.com/)<br/>
+[FiatExpress](https://www.fiatexpress.com/)<br/>
+[MentorIntroAfrica](https://www.mentorintroafrica.com/)<br/>
+[Premium Souvenir Web App](https://premium-souvenirs.vercel.app/)<br/>
+[Tutorial Hub](https://tutorial-hub-umber.vercel.app/)<br/>
+[Fingerprint Attendance Manager](https://attendance.adewaleda.space/)<br/>
+[FarmSmarter Marketplace](#)<br/>
+[Jamb IBASS service](#)<br/>
+[CARTWAY](https://www.cartwayhq.com/)<br/>
+[JUPEB Attendance Management System](https://attendance.jupeb.edu.ng/)<br/>
+[99Apt Customer Success + Operations Super Admin WebApp](https://staging-backoffice.the99apartments.com/)<br/>
+[iSportX](https://isportx.vercel.app/)<br/>
+[First Project](https://adewale-d-a.netlify.app/)<br/>
+[Eliron](https://www.elironco.com/)<br/>
+[99Edge](https://www.the99edge.us/)<br/>
 
 ##### Companies I have worked with
 
@@ -111,5 +110,5 @@ and projects in a visually appealing and user-friendly manner.
 - Premium Souvenirs
 - 7thCare
 - Tutorial Hub
-
-npm i axios resend crypto @supabase/ssr @supabase/supabase-js date-fns @react-email/components crypto-random-string
+- Eliron
+- 99Edge
