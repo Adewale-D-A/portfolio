@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About Me",
-  description: "Get to know Azeez Adewale.",
+  description: "Get to know Adewale AZEEZ.",
 };
 
 export default function Projects() {
@@ -70,7 +70,7 @@ export default function Projects() {
                 {" "}
                 B.Eng in Electrical and Electronics Engineering{" "}
               </span>{" "}
-              at the University of Ilorin from 2018-2024.
+              at the University of Ilorin
               <br /> Work experience in Software Engineering (Fullstack
               Development).
             </p>

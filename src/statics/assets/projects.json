@@ -26,6 +26,19 @@
     "about": "Streamline operations, enhance patient care, and maximise efficiency with our custom healthcare automation solutions and personalised guidance from expert advisors."
   },
   {
+    "id": "eliron-website",
+    "name": "Eliron",
+    "type": "website",
+    "link": "https://www.elironco.com/",
+    "category": "Consulting",
+    "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/eliron/eliron-home.png",
+      "/screenshotsdata/eliron/eliron-services.png"
+    ],
+    "about": "Enterprise-Grade Consulting and Intellectual Property for High-Risk Project Delivery."
+  },
+  {
     "id": "cartway-webapp",
     "name": "Cartway",
     "type": "website+app",

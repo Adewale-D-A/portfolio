@@ -1,3 +1,7 @@
+##### 28.01.2026
+
+> Feature: About me and projects sections updates
+
 ##### 17.08.2025
 
 > Update: 7thCare UI updates

@@ -46,5 +46,17 @@
     "name": "COBES",
     "description": "Community Participation",
     "image": "/awards/community_experience.JPG"
+  },
+  {
+    "id": "intellectual-property",
+    "name": "IP Law - WIPO",
+    "description": "Intellectual Property Rights",
+    "image": "/awards/wipo.JPG"
+  },
+  {
+    "id": "advanced_course_on_patent",
+    "name": "Advance Course on Patent - WIPO",
+    "description": "Advance Course on Patent",
+    "image": "/awards/advanced_course_on_patent.jpg"
   }
 ]
