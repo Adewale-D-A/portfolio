@@ -24,7 +24,7 @@ export default function ProjectCard({
       >
         <Image
           src={url ? url : "/image_placeholder.png"}
-          alt="project 1"
+          alt={name}
           height={300}
           width={300}
           className=" w-full h-full object-cover md:object-left-top"
