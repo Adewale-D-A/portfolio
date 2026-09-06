@@ -1,3 +1,7 @@
+##### 06.08.2026
+
+> Update: Projects cleanup
+
 ##### 28.01.2026
 
 > Feature: About me and projects sections updates

@@ -26,17 +26,31 @@
     "about": "Streamline operations, enhance patient care, and maximise efficiency with our custom healthcare automation solutions and personalised guidance from expert advisors."
   },
   {
-    "id": "eliron-website",
-    "name": "Eliron",
-    "type": "website",
-    "link": "https://www.elironco.com/",
-    "category": "Consulting",
+    "id": "sie",
+    "name": "Study in Europe",
+    "type": "website+app",
+    "link": "https://www.studyineurope.africa/",
+    "category": "FinTech",
     "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
     "images": [
-      "/screenshotsdata/eliron/eliron-home.png",
-      "/screenshotsdata/eliron/eliron-services.png"
+      "/screenshotsdata/sie/sie.png",
+      "/screenshotsdata/sie/sie_2.png",
+      "/screenshotsdata/sie/sie_3.png"
     ],
-    "about": "Enterprise-Grade Consulting and Intellectual Property for High-Risk Project Delivery."
+    "about": "Study in Europe with the Right School, Support, and Funding. We help students find the right school, support, and funding to study in Europe."
+  },
+  {
+    "id": "attendance-manager",
+    "name": "Fingerprint Attendance Manager",
+    "type": "website+app",
+    "link": "https://attendance.adewaleda.com/",
+    "category": "Security",
+    "stacks": ["React.js", "TypeScript", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/fingerprint/fingerprint_1.png",
+      "/screenshotsdata/fingerprint/fingerprint_2.png"
+    ],
+    "about": "Fingerprint Attendance Management System"
   },
   {
     "id": "cartway-webapp",
@@ -51,62 +65,6 @@
       "/screenshotsdata/cartway/cw_3.png"
     ],
     "about": "Fast & Reliable Delivery Right to Your Doorstep. From food delivery to package transportation, Cartway ensures your items reach their destination quickly and safely."
-  },
-  {
-    "id": "anonymize-care",
-    "name": "AnonymizeCare",
-    "type": "website",
-    "link": "https://www.anonymizecare.com/",
-    "category": "Health Care",
-    "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
-    "images": [
-      "/screenshotsdata/anonymize_care/anon-care-2.png",
-      "/screenshotsdata/anonymize_care/anon-care-1.png"
-    ],
-    "about": "AnonymizeCare connects you to certified medical professionals—without ever revealing your identity. No names. No faces. Just care. Register in seconds, choose a nickname, and start receiving real medical advice and prescriptions from licensed consultants. Completely private. 100% secure."
-  },
-  {
-    "id": "facility-management",
-    "name": "99Apartment | Facility Management",
-    "type": "web-app",
-    "link": "https://staging-backoffice.the99apartments.com/",
-    "category": "PropTech",
-    "stacks": ["React.js", "TypeScript", "TailwindCSS"],
-    "images": [
-      "/screenshotsdata/99apt_facility_manager/99apt_facility_mgr_1.png",
-      "/screenshotsdata/99apt_facility_manager/99apt_facility_mgr_2.png",
-      "/screenshotsdata/99apt_facility_manager/99apt_facility_mgr_3.png"
-    ],
-    "about": "Facility management system for 99Apartments."
-  },
-  {
-    "id": "isportx",
-    "name": "iSportX",
-    "type": "web-app",
-    "link": "https://isportx.vercel.app/",
-    "category": "Sports, Scout Manager",
-    "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
-    "images": [
-      "/screenshotsdata/iSportx/isportx_1.png",
-      "/screenshotsdata/iSportx/isportx_2.png",
-      "/screenshotsdata/iSportx/isportx_3.png"
-    ],
-    "about": "Talent scouting and management system for sports teams."
-  },
-  {
-    "id": "farmsmarter-website",
-    "name": "FarmSmarter",
-    "type": "website",
-    "link": "https://farmsmarter.app/",
-    "category": "Agriculture",
-    "stacks": ["Next.js", "TypeScript", "Docker", "AWS", "TailwindCSS"],
-    "images": [
-      "/screenshotsdata/fs/website/fs_1.png",
-      "/screenshotsdata/fs/website/fs_2.png",
-      "/screenshotsdata/fs/website/fs_3.png",
-      "/screenshotsdata/fs/website/fs_4.png"
-    ],
-    "about": "FarmSmarter is a web application that helps farmers optimize their crop yields and reduce waste."
   },
   {
     "id": "farmsmarter-webapp",
@@ -126,6 +84,62 @@
     "about": "FarmSmarter is a web application that helps farmers optimize their crop yields and reduce waste."
   },
   {
+    "id": "mia",
+    "name": "Mentor Intro Africa",
+    "type": "website",
+    "link": "https://www.mentorintroafrica.com/",
+    "category": "Councelling",
+    "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/mia/mia_1.png",
+      "/screenshotsdata/mia/mia_2.png",
+      "/screenshotsdata/mia/mia_3.png"
+    ],
+    "about": "Unlock Your Potential with Mentor Guidance"
+  },
+  {
+    "id": "farmsmarter-website",
+    "name": "FarmSmarter",
+    "type": "website",
+    "link": "https://farmsmarter.app/",
+    "category": "Agriculture",
+    "stacks": ["Next.js", "TypeScript", "Docker", "AWS", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/fs/website/fs_1.png",
+      "/screenshotsdata/fs/website/fs_2.png",
+      "/screenshotsdata/fs/website/fs_3.png",
+      "/screenshotsdata/fs/website/fs_4.png"
+    ],
+    "about": "FarmSmarter is a web application that helps farmers optimize their crop yields and reduce waste."
+  },
+  {
+    "id": "eliron-website",
+    "name": "Eliron",
+    "type": "website",
+    "link": "https://www.elironco.com/",
+    "category": "Consulting",
+    "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/eliron/eliron-home.png",
+      "/screenshotsdata/eliron/eliron-services.png"
+    ],
+    "about": "Enterprise-Grade Consulting and Intellectual Property for High-Risk Project Delivery."
+  },
+  {
+    "id": "facility-management",
+    "name": "99Apartment | Facility Management",
+    "type": "web-app",
+    "link": "https://the99apartments.com",
+    "category": "PropTech",
+    "stacks": ["React.js", "TypeScript", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/99apt_facility_manager/99apt_facility_mgr_1.png",
+      "/screenshotsdata/99apt_facility_manager/99apt_facility_mgr_2.png",
+      "/screenshotsdata/99apt_facility_manager/99apt_facility_mgr_3.png"
+    ],
+    "about": "Facility management system for 99Apartments."
+  },
+  {
     "id": "mindwalks-website",
     "name": "Mindwalks",
     "type": "website",
@@ -140,6 +154,33 @@
     "about": "Mindwalks is a state-of-the-art IT solutions with a focus on innovation, reliability and performance."
   },
   {
+    "id": "anonymize-care",
+    "name": "AnonymizeCare",
+    "type": "website",
+    "link": "https://www.anonymizecare.com/",
+    "category": "Health Care",
+    "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/anonymize_care/anon-care-2.png",
+      "/screenshotsdata/anonymize_care/anon-care-1.png"
+    ],
+    "about": "AnonymizeCare connects you to certified medical professionals—without ever revealing your identity. No names. No faces. Just care. Register in seconds, choose a nickname, and start receiving real medical advice and prescriptions from licensed consultants. Completely private. 100% secure."
+  },
+  {
+    "id": "isportx",
+    "name": "iSportX",
+    "type": "web-app",
+    "link": "https://isportx.vercel.app/",
+    "category": "Sports, Scout Manager",
+    "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
+    "images": [
+      "/screenshotsdata/iSportx/isportx_1.png",
+      "/screenshotsdata/iSportx/isportx_2.png",
+      "/screenshotsdata/iSportx/isportx_3.png"
+    ],
+    "about": "Talent scouting and management system for sports teams."
+  },
+  {
     "id": "7thcare-hospitals",
     "name": "7thCare",
     "type": "website",
@@ -151,46 +192,6 @@
       "/screenshotsdata/7thcare/hospitals/hospitals_2.png"
     ],
     "about": "Expands Access To Care For Patients And Supports Community Health Staff And Junior Doctors."
-  },
-  {
-    "id": "99apartment",
-    "name": "99Apartment",
-    "type": "website+app",
-    "link": "https://www.the99apartments.com/",
-    "category": "PropTech",
-    "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
-    "images": [
-      "/screenshotsdata/99apt/99apt_1.png",
-      "/screenshotsdata/99apt/99apt_2.png"
-    ],
-    "about": "Designed to solve all your property and rental problems."
-  },
-  {
-    "id": "fiatexpress",
-    "name": "FiatExpress",
-    "type": "website",
-    "link": "https://www.fiatexpress.com/",
-    "category": "FinTech",
-    "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
-    "images": [
-      "/screenshotsdata/fiatexpress/fe_1.png",
-      "/screenshotsdata/fiatexpress/fe_2.png"
-    ],
-    "about": "Fiat Express ensures secure, swift, and easy peer to peer currency exchange at rates that suits you"
-  },
-  {
-    "id": "mia",
-    "name": "Mentor Intro Africa",
-    "type": "website",
-    "link": "https://www.mentorintroafrica.com/",
-    "category": "Councelling",
-    "stacks": ["Next.js", "TypeScript", "TailwindCSS"],
-    "images": [
-      "/screenshotsdata/mia/mia_1.png",
-      "/screenshotsdata/mia/mia_2.png",
-      "/screenshotsdata/mia/mia_3.png"
-    ],
-    "about": "Unlock Your Potential with Mentor Guidance"
   },
   {
     "id": "premium-souvenirs",
@@ -220,19 +221,6 @@
     "about": "All in one learning platform for students and teachers"
   },
   {
-    "id": "attendance-manager",
-    "name": "Fingerprint Attendance Manager",
-    "type": "website+app",
-    "link": "https://attendance.adewaleda.space/",
-    "category": "Security",
-    "stacks": ["React.js", "TypeScript", "TailwindCSS"],
-    "images": [
-      "/screenshotsdata/fingerprint/fingerprint_1.png",
-      "/screenshotsdata/fingerprint/fingerprint_2.png"
-    ],
-    "about": "Fingerprint Attendance Management System"
-  },
-  {
     "id": "event-management-dashboard",
     "name": "Event Management Dashboard",
     "type": "web-app",
@@ -244,18 +232,5 @@
       "/screenshotsdata/event-mgt-dash/emt_2.png"
     ],
     "about": "Event management dashboard"
-  },
-  {
-    "id": "parroty",
-    "name": "Parroty",
-    "type": "website",
-    "link": "https://www.parroty.fun/",
-    "category": "Website",
-    "stacks": ["React.js", "TypeScript", "TailwindCSS"],
-    "images": [
-      "/screenshotsdata/parroty/parroty_1.png",
-      "/screenshotsdata/parroty/parroty_2.png"
-    ],
-    "about": "Parroty Meme"
   }
 ]
